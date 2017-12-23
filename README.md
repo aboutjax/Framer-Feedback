@@ -4,6 +4,8 @@ The Feedback Module for Framer makes it easier for you to prototype with feedbac
 ## Generic Feedback
 By default, the feedback component includes a dismissable icon at the end of the message. This is often used when you wish to show the user a message that needs their attention.
 
+![generic feedback](https://media.giphy.com/media/xULW8BnloxUUlPcIxy/giphy.gif)
+
 ```coffee
 button.onClick ->
   feedback = new Feedback
@@ -12,6 +14,8 @@ button.onClick ->
 
 ## Auto Dismiss Feedback
 If an `autoDimiss` object is passed in as an option, it will dismisses itself after a set time.
+
+![auto dismiss feedback](https://media.giphy.com/media/xULW8pkn8CzRvlvkis/giphy.gif)
 
 ```coffee
 button.onClick ->
