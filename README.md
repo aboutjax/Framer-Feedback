@@ -6,8 +6,6 @@ The Feedback Module for Framer makes it easier for you to prototype with feedbac
 
 Generating & Copying a permalink into the clipboard. This example uses the autoDimiss Feedback.
 
-[![example](https://media.giphy.com/media/l0HUka3cZplsu6LhS/giphy.gif)](https://framer.cloud/GUsVL)
-
 
 ## Generic Feedback
 By default, the feedback component includes a dismissable icon at the end of the message. This is often used when you wish to show the user a message that needs their attention.
