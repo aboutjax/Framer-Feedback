@@ -48,6 +48,7 @@ button.onClick ->
 Some options are available to customise the style and behaviour:
 
 White background / blue counter
+
 ![white example](https://media.giphy.com/media/xULW8Fsbgcx8z5S9JS/giphy.gif)
 
 ```coffee
@@ -63,6 +64,7 @@ button.onClick ->
 ```
 
 Pink background / white counter
+
 ![pink example](https://media.giphy.com/media/3oFzm0U7bMruTwsudy/giphy.gif)
 
 ```coffee
