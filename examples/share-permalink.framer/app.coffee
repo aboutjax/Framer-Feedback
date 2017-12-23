@@ -29,6 +29,7 @@ hint.states.animationOptions =
 
 btn_share.onClick (event, layer) ->
 	feedbackAutoDismiss = new Feedback
+		x: 32
 		text: 'Share link copied to clipboard.'
 		fontFamily: 'metric'
 		autoDismiss:

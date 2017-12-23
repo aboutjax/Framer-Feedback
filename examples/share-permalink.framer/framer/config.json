@@ -2,10 +2,11 @@
   "orientation" : 0,
   "updateDelay" : 0.29999999999999999,
   "designModeSelected" : 0,
-  "cachedDeviceHeight" : 0,
+  "cachedDeviceHeight" : 720,
   "contentScale" : 1,
-  "cachedDeviceWidth" : 0,
-  "deviceType" : "fullscreen",
+  "cachedDeviceWidth" : 1152,
+  "fullScreen" : false,
+  "deviceType" : "apple-macbook",
   "sharedPrototype" : true,
   "propertyPanelToggleStates" : {
 
@@ -17,5 +18,5 @@
   "foldedCodeRanges" : [
 
   ],
-  "deviceScale" : 1
+  "deviceScale" : "fit"
 }

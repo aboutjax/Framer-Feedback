@@ -2,7 +2,8 @@
 The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily created a Feedback component in any part of your prototype.
 
 ## Example
-[Share permalink](https://framer.cloud/GUsVL)
+[Permalink sharing](https://framer.cloud/GUsVL)
+
 Generating & Copying a permalink into the clipboard. This example uses the autoDimiss Feedback.
 
 ## Generic Feedback
@@ -16,6 +17,20 @@ button.onClick ->
     text: 'This is a feedback with a dismissable button.'
 ```
 
+### Options
+Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Full Doc](https://framer.com/docs/#text.textlayer)
+
+To make an inverted Feedback:
+
+```coffee
+button.onClick ->
+  feedback = new Feedback
+    text: 'This is a feedback with a dismissable button.'
+    color: 'black'
+    backgroundColor: 'white'
+```
+
+
 ## Auto Dismiss Feedback
 If an `autoDimiss` object is passed in as an option, it will dismisses itself after a set time.
 
@@ -28,3 +43,6 @@ button.onClick ->
     autoDismiss:
       duration: 4
 ```
+
+## Options
+Some options are available to customise the style and behaviour
