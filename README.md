@@ -1,9 +1,9 @@
 # Framer Feedback Module
 The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily created a Feedback component in any part of your prototype.
 
-## Examples
-1. ![Share permalink]()
-2.
+## Example
+![Share permalink](https://framer.cloud/GUsVL)
+Generating & Copying a permalink into the clipboard. This example uses the autoDimiss Feedback.
 
 ## Generic Feedback
 By default, the feedback component includes a dismissable icon at the end of the message. This is often used when you wish to show the user a message that needs their attention.
