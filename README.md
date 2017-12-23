@@ -17,16 +17,13 @@ To include the Feedback Class as a module, get the feedback.coffee file from wit
 ## Generic Feedback
 By default, the feedback component includes a dismissable icon at the end of the message. This is often used when you wish to show the user a message that needs their attention.
 
-![generic feedback](https://media.giphy.com/media/3oFzm0oNwQ9gb1ARcQ/giphy.gif)
-
 ```coffee
 feedback = new Feedback
   text: 'This is a feedback with a dismissable button.'
 ```
+![generic feedback](https://media.giphy.com/media/3oFzm0oNwQ9gb1ARcQ/giphy.gif)
 
-Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Documentation here.](https://framer.com/docs/#text.textlayer)
-
-So as an example, this is how to invert the style of the feedback component (white background / dark text)
+Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Documentation here.](https://framer.com/docs/#text.textlayer) So as an example, this is how to invert the style of the feedback component (white background / dark text)
 
 ```coffee
 feedback = new Feedback
@@ -40,14 +37,14 @@ feedback = new Feedback
 ## Auto Dismiss Feedback
 If an `autoDimiss` object is passed in as an option, it will dismiss itself after a set time.
 
-![auto dismiss feedback](https://media.giphy.com/media/3ohc13JxwiMcnnXf0c/giphy.gif)
-
 ```coffee
 feedback = new Feedback
-  text: 'This is a feedback with a self destruct timer.'
-  autoDismiss:
-    duration: 4
-```
+text: 'This is a feedback with a self destruct timer.'
+autoDismiss:
+  duration: 4
+  ```
+
+![auto dismiss feedback](https://media.giphy.com/media/3ohc13JxwiMcnnXf0c/giphy.gif)
 
 ## Auto Dismiss Customization
 Set `autoDimiss` options to override style and behaviours.
