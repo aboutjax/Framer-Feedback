@@ -39,7 +39,7 @@ button.onClick ->
 
 
 ## Auto Dismiss Feedback
-If an `autoDimiss` object is passed in as an option, it will dismisses itself after a set time.
+If an `autoDimiss` object is passed in as an option, it will dismiss itself after a set time.
 
 ![auto dismiss feedback](https://media.giphy.com/media/3ohc13JxwiMcnnXf0c/giphy.gif)
 
