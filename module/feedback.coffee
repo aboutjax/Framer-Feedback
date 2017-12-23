@@ -72,8 +72,8 @@ class exports.Feedback extends TextLayer
 			counter = new Layer
 				parent: @
 				borderRadius: 10
-				y: Align.top(2)
-				height: options.counterHeight || 2
+				y: Align.top(0)
+				height: options.autoDismiss.counterHeight || 3
 				backgroundColor: options.autoDismiss.color || 'white'
 				width: @width
 

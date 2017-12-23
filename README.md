@@ -1,10 +1,18 @@
 # Framer Feedback Module
-The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily created a Feedback component in any part of your prototype.
+The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily created two different types of feedback component in any part of your prototype.
 
-## Example
-[Permalink sharing](https://framer.cloud/GUsVL)
+1. Generic Feedback
+2. Auto Dismiss Feedback
 
-Generating & Copying a permalink into the clipboard.
+[![](https://media.giphy.com/media/xULW8o0aNp4p3sazh6/giphy.gif)](https://framer.cloud/UbNRL)
+
+[Example](https://framer.cloud/GUsVL) – Sharing permalinks interaction.
+
+
+## Including the Module
+To include the Feedback Class as a module, get the feedback.coffee file from within the `/module` folder and place it within the `/modules` folder of your prototype.
+
+`{Feedback} = require "feedback"`
 
 ## Generic Feedback
 By default, the feedback component includes a dismissable icon at the end of the message. This is often used when you wish to show the user a message that needs their attention.
