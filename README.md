@@ -36,6 +36,7 @@ button.onClick ->
     color: 'black'
     backgroundColor: 'white'
 ```
+![inverted example](https://imgur.com/X8toEXZ.jpg)
 
 
 ## Auto Dismiss Feedback
