@@ -1,5 +1,6 @@
 # Show Hints
 Framer.Extras.Hints.enable()
+Canvas.backgroundColor = 'd7d7d7'
 
 # This is a test
 
