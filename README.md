@@ -51,11 +51,8 @@ button.onClick ->
       duration: 4
 ```
 
-Some options are available to customise the style and behaviour:
-
-#### White background / blue counter
-
-![white example](https://media.giphy.com/media/xULW8Fsbgcx8z5S9JS/giphy.gif)
+## Auto Dismiss Customization
+Set `autoDimiss` options to override style and behaviours.
 
 ```coffee
 button.onClick ->
@@ -64,21 +61,7 @@ button.onClick ->
     backgroundColor: 'white'
     color: 'black'
     autoDismiss:
-      duration: 2
-      color: '0097F1'
-```
-
-#### Pink background / white counter
-
-![pink example](https://media.giphy.com/media/3oFzm0U7bMruTwsudy/giphy.gif)
-
-```coffee
-button.onClick ->
-  feedback = new Feedback
-    text: 'This is a feedback with a self destruct timer.'
-    backgroundColor: '#FF86AA'
-    color: 'white'
-    autoDismiss:
-      duration: 2
-      color: 'white'
+      duration: 2         #duration before auto dissmiss
+      counterHeight: 5    #counter bar height
+      color: '0097F1'     #counter bar color
 ```
