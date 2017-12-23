@@ -25,9 +25,9 @@ button.onClick ->
     text: 'This is a feedback with a dismissable button.'
 ```
 
-Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Full Doc](https://framer.com/docs/#text.textlayer)
+Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Documentation here.](https://framer.com/docs/#text.textlayer)
 
-To make an inverted Feedback:
+So as an example, this is how to invert the style of the feedback component (white background / dark text)
 
 ```coffee
 button.onClick ->
