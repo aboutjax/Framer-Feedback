@@ -20,9 +20,8 @@ By default, the feedback component includes a dismissable icon at the end of the
 ![generic feedback](https://media.giphy.com/media/3oFzm0oNwQ9gb1ARcQ/giphy.gif)
 
 ```coffee
-button.onClick ->
-  feedback = new Feedback
-    text: 'This is a feedback with a dismissable button.'
+feedback = new Feedback
+  text: 'This is a feedback with a dismissable button.'
 ```
 
 Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Documentation here.](https://framer.com/docs/#text.textlayer)
@@ -30,11 +29,10 @@ Since this module extends `TextLayer`, it inherits all the goodness that comes w
 So as an example, this is how to invert the style of the feedback component (white background / dark text)
 
 ```coffee
-button.onClick ->
-  feedback = new Feedback
-    text: 'This is a feedback with a dismissable button.'
-    color: 'black'
-    backgroundColor: 'white'
+feedback = new Feedback
+  text: 'This is a feedback with a dismissable button.'
+  color: 'black'
+  backgroundColor: 'white'
 ```
 ![inverted example](https://imgur.com/X8toEXZ.jpg)
 
@@ -45,24 +43,22 @@ If an `autoDimiss` object is passed in as an option, it will dismiss itself afte
 ![auto dismiss feedback](https://media.giphy.com/media/3ohc13JxwiMcnnXf0c/giphy.gif)
 
 ```coffee
-button.onClick ->
-  feedback = new Feedback
-    text: 'This is a feedback with a self destruct timer.'
-    autoDismiss:
-      duration: 4
+feedback = new Feedback
+  text: 'This is a feedback with a self destruct timer.'
+  autoDismiss:
+    duration: 4
 ```
 
 ## Auto Dismiss Customization
 Set `autoDimiss` options to override style and behaviours.
 
 ```coffee
-button.onClick ->
-  feedback = new Feedback
-    text: 'This is a feedback with a self destruct timer.'
-    backgroundColor: 'white'
-    color: 'black'
-    autoDismiss:
-      duration: 2         #duration before auto dissmiss
-      counterHeight: 5    #counter bar height
-      color: '0097F1'     #counter bar color
+feedback = new Feedback
+  text: 'This is a feedback with a self destruct timer.'
+  backgroundColor: 'white'
+  color: 'black'
+  autoDismiss:
+    duration: 2         #duration before auto dissmiss
+    counterHeight: 5    #counter bar height
+    color: '0097F1'     #counter bar color
 ```
