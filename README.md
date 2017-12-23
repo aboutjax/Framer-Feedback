@@ -6,6 +6,9 @@ The Feedback Module for Framer makes it easier for you to prototype with feedbac
 
 Generating & Copying a permalink into the clipboard. This example uses the autoDimiss Feedback.
 
+[![example](https://media.giphy.com/media/l0HUka3cZplsu6LhS/giphy.gif)](https://framer.cloud/GUsVL)
+
+
 ## Generic Feedback
 By default, the feedback component includes a dismissable icon at the end of the message. This is often used when you wish to show the user a message that needs their attention.
 
@@ -17,7 +20,6 @@ button.onClick ->
     text: 'This is a feedback with a dismissable button.'
 ```
 
-### Options
 Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Full Doc](https://framer.com/docs/#text.textlayer)
 
 To make an inverted Feedback:
@@ -44,10 +46,9 @@ button.onClick ->
       duration: 4
 ```
 
-## Options
 Some options are available to customise the style and behaviour:
 
-White background / blue counter
+#### White background / blue counter
 
 ![white example](https://media.giphy.com/media/xULW8Fsbgcx8z5S9JS/giphy.gif)
 
@@ -55,7 +56,6 @@ White background / blue counter
 button.onClick ->
   feedback = new Feedback
     text: 'This is a feedback with a self destruct timer.'
-    x: 20
     backgroundColor: 'white'
     color: 'black'
     autoDismiss:
@@ -63,7 +63,7 @@ button.onClick ->
       color: '0097F1'
 ```
 
-Pink background / white counter
+#### Pink background / white counter
 
 ![pink example](https://media.giphy.com/media/3oFzm0U7bMruTwsudy/giphy.gif)
 
@@ -71,7 +71,6 @@ Pink background / white counter
 button.onClick ->
   feedback = new Feedback
     text: 'This is a feedback with a self destruct timer.'
-    x: 20
     backgroundColor: '#FF86AA'
     color: 'white'
     autoDismiss:
