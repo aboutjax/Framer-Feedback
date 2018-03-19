@@ -6,8 +6,8 @@ button_timer.onClick ->
 		backgroundColor: '#333'
 		autoDismiss:
 			duration: 2
-			color: '#ffffff'
-			counterHeight: 3
+			color: '#007AFF'
+			counterHeight: 5
 			
 button_generic.onClick ->
 	feedback = new Feedback
