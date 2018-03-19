@@ -15,7 +15,7 @@ The Feedback Module for Framer makes it easier for you to prototype with feedbac
 
 
 ## Including the Module
-To include the Feedback Class as a module, get the feedback.coffee file from within the `/module` folder and place it within the `/modules` folder of your prototype.
+To include the Feedback Class as a module, get the `feedback.coffee` file and place it within the `/modules` folder of your prototype.
 
 `{Feedback} = require "feedback"`
 

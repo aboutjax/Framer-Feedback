@@ -2,11 +2,10 @@
   "orientation" : 0,
   "updateDelay" : 0.29999999999999999,
   "designModeSelected" : 0,
-  "cachedDeviceHeight" : 812,
+  "cachedDeviceHeight" : 0,
   "contentScale" : 1,
-  "cachedDeviceWidth" : 375,
-  "fullScreen" : false,
-  "deviceType" : "apple-iphone-x-space-gray",
+  "cachedDeviceWidth" : 0,
+  "deviceType" : "fullscreen",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
@@ -18,5 +17,5 @@
   "foldedCodeRanges" : [
 
   ],
-  "deviceScale" : "fit"
+  "deviceScale" : 1
 }

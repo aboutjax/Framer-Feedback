@@ -49,11 +49,11 @@ class exports.Feedback extends TextLayer
     @name = 'feedback'
     @states.show =
       opacity: 1
-      y: options.y || Align.bottom(-20)
+      y: options.y || Align.bottom(0)
 
     @states.hide =
       opacity: 0
-      y: options.y - 30 || Align.bottom(0)
+      y: options.y || Align.bottom(0)
 
     @states.animationOptions =
       time: 0.25

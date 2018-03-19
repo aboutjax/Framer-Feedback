@@ -52,7 +52,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.49925037481259371,
+            "centerAnchorY" : 0.14392803598200898,
             "children" : [
               {
                 "__class" : "FrameNode",
@@ -494,7 +494,7 @@
             "sepia" : 0,
             "sepiaEnabled" : 0,
             "targetName" : null,
-            "top" : null,
+            "top" : 28,
             "visible" : true,
             "width" : 335,
             "widthFactor" : null
