@@ -20,7 +20,7 @@ To include the Feedback Class as a module, place the `feedback.coffee` file insi
 Include the module into your Framer project:
 
 ```coffee
-{Feedback} = require "feedback"
+Feedback = require "feedback"
 ```
 
 ## Generic Feedback
