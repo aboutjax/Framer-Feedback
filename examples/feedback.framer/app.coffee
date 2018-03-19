@@ -5,7 +5,7 @@ button_timer.onClick ->
 		text: 'This feedback dismisses automatically.'
 		backgroundColor: '#333'
 		autoDismiss:
-			duration: 4
+			duration: 2
 			color: '#ffffff'
 			counterHeight: 3
 			
