@@ -4,6 +4,6 @@
     "author": "Jacky Lee",
 
     "require": "{Feedback} = require 'feedback'",
-    "install": "feedback.coffee",
+    "install": "module/feedback.coffee",
     "example": "example.coffee",
 }
