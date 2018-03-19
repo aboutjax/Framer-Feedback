@@ -1,7 +1,12 @@
-feedbackAutoDismiss = new Feedback
-	text: 'This feedback dismisses automatically.'
+# Generic Feedback Message
+genericFeedback = new feedback
+	text: 'Hello world.'
+
+# Auto Dismiss Feedback Message
+autoDimissFeedback = new Feedback
+	text: 'Hello world.'
 	backgroundColor: '#333'
 	autoDismiss:
-		duration: 2
-		color: '#ffffff'
-		counterHeight: 3
+		duration: 3
+		color: '#007AFF'
+		counterHeight: 5

@@ -1,75 +1,78 @@
 # Framer Feedback Module
-The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily created two different types of feedback component in any part of your prototype.
+
+The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily spawn two different types of feedback messages in any part of your prototype.
 
 <a href='https://open.framermodules.com/framer-feedback'>
     <img alt='Install with Framer Modules'
     src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
 </a>
 
-1. Generic Feedback
-2. Auto Dismiss Feedback
+[![](https://media.giphy.com/media/3gL42l3ppwJC6eKxem/source.gif)](https://framer.cloud/UbNRL)
 
-[![](https://media.giphy.com/media/3CSJhKfs7JaNY1qctn/giphy.gif)](https://framer.cloud/UbNRL)
+## Example
 
-[Example](https://framer.cloud/GUsVL) – Sharing permalinks interaction.
-
+[Copy to clipboard](https://framer.cloud/GUsVL) - Feedback message when copying an app permalink to clipboard.
 
 ## Including the Module
-To include the Feedback Class as a module, get the `feedback.coffee` file and place it within the `/modules` folder of your prototype.
 
-`{Feedback} = require "feedback"`
+To include the Feedback Class as a module, place the `feedback.coffee` file inside the `/modules` folder of your prototype.
+
+Include the module into your Framer project:
+
+```coffee
+{Feedback} = require "feedback"
+```
 
 ## Generic Feedback
+
 By default, the feedback component includes a dismissable icon at the end of the message. This is often used when you wish to show the user a message that needs their attention.
 
 ```coffee
 feedback = new Feedback
-  text: 'This is a feedback with a dismissable button.'
+  text: 'Hello world.'
 ```
-![generic feedback](https://media.giphy.com/media/3oFzm0oNwQ9gb1ARcQ/giphy.gif)
 
-Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Documentation here.](https://framer.com/docs/#text.textlayer) For example, this is how to invert the style of the feedback component (white background / dark text)
+![generic feedback](https://media.giphy.com/media/4ZobZB3GghKGwR1KVp/source.gif)
+
+Since this module extends [TextLayer.](https://framer.com/docs/#text.textlayer), it inherits all the goodness that comes with it.  For example, to invert the style of the feedback component (white background / dark text):
 
 ```coffee
 feedback = new Feedback
-  text: 'This is a feedback with a dismissable button.'
+  text: 'Hello world.'
   color: 'black'
   backgroundColor: 'white'
 ```
-![inverted example](https://imgur.com/X8toEXZ.jpg)
-
 
 ## Auto Dismiss Feedback
-If an `autoDimiss` object is passed in as an option, it will dismiss itself after a set time.
+
+If an `autoDimiss` object is passed in as an option, it will dismiss itself after a set duration of time.
 
 ```coffee
 feedback = new Feedback
-text: 'This is a feedback with a self destruct timer.'
-autoDismiss:
-  duration: 4
-  ```
-
-![auto dismiss feedback](https://media.giphy.com/media/3ohc13JxwiMcnnXf0c/giphy.gif)
-
-## Auto Dismiss Customization
-Set `autoDimiss` options to override style and behaviours.
-
-```coffee
-feedback = new Feedback
-  text: 'This is a feedback with a self destruct timer.'
-  backgroundColor: 'white'
-  color: 'black'
+  text: 'Hello world.'
   autoDismiss:
-    duration: 2         #duration before auto dissmiss
-    counterHeight: 5    #counter bar height
-    color: '0097F1'     #counter bar color
+    duration: 3         # duration before auto dissmiss
+    color: '007AFF'     # counter bar color
+    counterHeight: 5    # counter bar height
 ```
 
-## Listen to dismiss Events
+Some `autoDismiss` options include:
+
+| Properties | Type   | Description                                       |
+| :--------- | :----- | :------------------------------------------------ |
+| duration   | number | duration before feedback message dismisses itself |
+| color           |    Color | counter bar color                                                  |
+|counterHeight   |number   |counter bar height   |
+
+![auto dismiss feedback](https://media.giphy.com/media/O5txiLniPd3nI0CKcG/source.gif)
+
+## Listen to dismiss events
+
 You can also listen to dismiss event to trigger other functions.
+
 ```coffee
 feedback = new feedback
-  text: 'This is a feedback message'
+  text: 'Hello, world.'
   autoDimiss:
     duration: 2
 
