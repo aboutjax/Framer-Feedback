@@ -23,7 +23,7 @@ feedback = new Feedback
 ```
 ![generic feedback](https://media.giphy.com/media/3oFzm0oNwQ9gb1ARcQ/giphy.gif)
 
-Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Documentation here.](https://framer.com/docs/#text.textlayer) So as an example, this is how to invert the style of the feedback component (white background / dark text)
+Since this module extends `TextLayer`, it inherits all the goodness that comes with it. [Documentation here.](https://framer.com/docs/#text.textlayer) For example, this is how to invert the style of the feedback component (white background / dark text)
 
 ```coffee
 feedback = new Feedback
@@ -58,4 +58,16 @@ feedback = new Feedback
     duration: 2         #duration before auto dissmiss
     counterHeight: 5    #counter bar height
     color: '0097F1'     #counter bar color
+```
+
+## Listen to dismiss Events
+You can also listen to dismiss event to trigger other functions.
+```coffee
+feedback = new feedback
+  text: 'This is a feedback message'
+  autoDimiss:
+    duration: 2
+
+feedback.onDimiss ->
+  print 'feedback is dismissed'
 ```
