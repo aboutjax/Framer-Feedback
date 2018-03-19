@@ -1,6 +1,11 @@
 # Framer Feedback Module
 The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily created two different types of feedback component in any part of your prototype.
 
+<a href='https://open.framermodules.com/framer-feedback'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
+</a>
+
 1. Generic Feedback
 2. Auto Dismiss Feedback
 
