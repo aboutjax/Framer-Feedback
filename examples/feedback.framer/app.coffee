@@ -1,4 +1,4 @@
-{Feedback} = require 'feedback'
+Feedback = require 'feedback'
 
 button_timer.onClick ->	
 	feedbackAutoDismiss = new Feedback

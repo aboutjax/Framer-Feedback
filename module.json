@@ -2,7 +2,7 @@
     "name": "Framer Feedback",
     "description": "The Feedback Module for Framer makes it easier for you to prototype with feedback messages.",
     "author": "Jacky Lee",
-    "require": "{Feedback} = require 'feedback'",
+    "require": "Feedback = require 'feedback'",
     "install": "feedback.coffee",
     "example": "example.coffee",
 }

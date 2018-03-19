@@ -1,7 +1,7 @@
 Events.Dismiss = "DismissFeedback"
 
 # Feedback Class
-class exports.Feedback extends TextLayer
+class Feedback extends TextLayer
   constructor: (options={}) ->
 
     # Dismiss icon svg set up
@@ -114,3 +114,5 @@ class exports.Feedback extends TextLayer
         dismissFeedback()
 
   onDismiss: (cb) -> @on(Events.Dismiss, cb)
+
+module.exports = Feedback

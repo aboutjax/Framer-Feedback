@@ -7,7 +7,7 @@ Canvas.backgroundColor = 'd7d7d7'
 # Use desktop cursor
 document.body.style.cursor = "auto"
 
-{Feedback} = require 'feedback'
+Feedback = require 'feedback'
 
 # on peramlink button mouse out
 btn_share.onMouseOver (event, layer) ->

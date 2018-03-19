@@ -58,11 +58,11 @@ feedback = new Feedback
 
 Some `autoDismiss` options include:
 
-| Properties | Type   | Description                                       |
-| :--------- | :----- | :------------------------------------------------ |
-| duration   | number | duration before feedback message dismisses itself |
-| color           |    Color | counter bar color                                                  |
-|counterHeight   |number   |counter bar height   |
+| Properties    | Type   | Description                                       |
+| :------------ | :----- | :------------------------------------------------ |
+| duration      | number | duration before feedback message dismisses itself |
+| color         | Color  | counter bar color                                 |
+| counterHeight | number | counter bar height                                |
 
 ![auto dismiss feedback](https://media.giphy.com/media/O5txiLniPd3nI0CKcG/source.gif)
 
