@@ -1,15 +1,14 @@
-# Use desktop cursor
-document.body.style.cursor = "auto"
 {Feedback} = require 'feedback'
 
 button_timer.onClick ->	
 	feedbackAutoDismiss = new Feedback
-		text: 'Share link copied to clipboard.'
+		text: 'This feedback dismisses automatically.'
+		backgroundColor: '#333'
 		autoDismiss:
-			duration: 2
-			color: '#66BB66'
+			duration: 4
+			color: '#ffffff'
+			counterHeight: 3
 			
 button_generic.onClick ->
 	feedback = new Feedback
-		text: 'Share link copied to clipboard.'
-
+		text: 'This feedback requires manual dismissal'

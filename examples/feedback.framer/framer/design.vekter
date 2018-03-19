@@ -4,9 +4,32 @@
     "children" : [
       {
         "__class" : "FrameNode",
+        "aspectRatioLocked" : false,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
         "children" : [
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -32,7 +55,7 @@
             "centerAnchorY" : 0.5,
             "children" : [
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -120,41 +143,50 @@
                           ],
                           "inlineStyleRanges" : [
                             {
-                              "length" : 10,
+                              "length" : 31,
                               "offset" : 0,
                               "style" : "LETTERSPACING:0"
                             },
                             {
-                              "length" : 10,
+                              "length" : 31,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.2"
                             },
                             {
-                              "length" : 10,
+                              "length" : 31,
                               "offset" : 0,
                               "style" : "FONT:SFUIText-Semibold"
                             },
                             {
-                              "length" : 10,
+                              "length" : 31,
                               "offset" : 0,
                               "style" : "ALIGN:center"
                             },
                             {
-                              "length" : 10,
+                              "length" : 31,
                               "offset" : 0,
                               "style" : "SIZE:18"
                             },
                             {
-                              "length" : 10,
+                              "length" : 31,
                               "offset" : 0,
                               "style" : "COLOR:hsl(0, 0%, 100%)"
                             }
                           ],
                           "key" : "2diue",
-                          "text" : "Share Link",
+                          "text" : "Trigger Feedback (Auto Dismiss)",
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<span data-offset-key=\"2diue-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;SFUIText-Semibold&quot;, &quot;SF UI Text&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:18px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Trigger Feedback (Auto Dismiss)<\/span><\/span>",
+                        "os" : "10_13",
+                        "size" : {
+                          "height" : 21,
+                          "width" : 290
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -162,20 +194,20 @@
                     "targetName" : null,
                     "top" : null,
                     "visible" : true,
-                    "width" : 94,
-                    "widthFactor" : null,
-                    "x" : 54,
-                    "y" : 23
+                    "width" : 290,
+                    "widthFactor" : null
                   }
                 ],
                 "clip" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "#66BB66",
+                "fillColor" : "#333",
                 "fillEnabled" : true,
                 "fillGradient" : {
                   "__class" : "LinearGradient",
@@ -184,6 +216,10 @@
                   "end" : "#D2F29F",
                   "start" : "#5FA52C"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -192,20 +228,23 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "ql4|P5U%",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
-                "left" : 0,
+                "left" : -34,
                 "locked" : false,
                 "name" : "button_generic",
                 "opacity" : 1,
                 "parentid" : "^~'7)pG2",
-                "radius" : 42,
-                "radiusBottomLeft" : 42,
-                "radiusBottomRight" : 42,
+                "radius" : 5,
+                "radiusBottomLeft" : 5,
+                "radiusBottomRight" : 5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
-                "radiusTopLeft" : 42,
-                "radiusTopRight" : 42,
-                "right" : 0,
+                "radiusTopLeft" : 5,
+                "radiusTopRight" : 5,
+                "right" : -34,
                 "rotation" : 0,
                 "saturate" : 100,
                 "saturateEnabled" : 0,
@@ -214,11 +253,11 @@
                 "targetName" : "button_generic",
                 "top" : null,
                 "visible" : true,
-                "width" : 267,
+                "width" : 335,
                 "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -306,41 +345,50 @@
                           ],
                           "inlineStyleRanges" : [
                             {
-                              "length" : 24,
+                              "length" : 16,
                               "offset" : 0,
                               "style" : "LETTERSPACING:0"
                             },
                             {
-                              "length" : 24,
+                              "length" : 16,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.2"
                             },
                             {
-                              "length" : 24,
+                              "length" : 16,
                               "offset" : 0,
                               "style" : "FONT:SFUIText-Semibold"
                             },
                             {
-                              "length" : 24,
+                              "length" : 16,
                               "offset" : 0,
                               "style" : "ALIGN:center"
                             },
                             {
-                              "length" : 24,
+                              "length" : 16,
                               "offset" : 0,
                               "style" : "SIZE:18"
                             },
                             {
-                              "length" : 24,
+                              "length" : 16,
                               "offset" : 0,
                               "style" : "COLOR:hsl(0, 0%, 100%)"
                             }
                           ],
                           "key" : "2diue",
-                          "text" : "Share Link (Auto Dimiss)",
+                          "text" : "Trigger Feedback",
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<span data-offset-key=\"2diue-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;SFUIText-Semibold&quot;, &quot;SF UI Text&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:18px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Trigger Feedback<\/span><\/span>",
+                        "os" : "10_13",
+                        "size" : {
+                          "height" : 21,
+                          "width" : 157
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -348,20 +396,20 @@
                     "targetName" : null,
                     "top" : null,
                     "visible" : true,
-                    "width" : 218,
-                    "widthFactor" : null,
-                    "x" : 54,
-                    "y" : 23
+                    "width" : 157,
+                    "widthFactor" : null
                   }
                 ],
                 "clip" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "#66BB66",
+                "fillColor" : "#333",
                 "fillEnabled" : true,
                 "fillGradient" : {
                   "__class" : "LinearGradient",
@@ -370,6 +418,10 @@
                   "end" : "#D2F29F",
                   "start" : "#5FA52C"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -378,20 +430,23 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "P&Tf_H-9",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
-                "left" : 0,
+                "left" : -34,
                 "locked" : false,
                 "name" : "button_timer",
                 "opacity" : 1,
                 "parentid" : "^~'7)pG2",
-                "radius" : 42,
-                "radiusBottomLeft" : 42,
-                "radiusBottomRight" : 42,
+                "radius" : 5,
+                "radiusBottomLeft" : 5,
+                "radiusBottomRight" : 5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
-                "radiusTopLeft" : 42,
-                "radiusTopRight" : 42,
-                "right" : 0,
+                "radiusTopLeft" : 5,
+                "radiusTopRight" : 5,
+                "right" : -34,
                 "rotation" : 0,
                 "saturate" : 100,
                 "saturateEnabled" : 0,
@@ -400,7 +455,7 @@
                 "targetName" : "button_timer",
                 "top" : 0,
                 "visible" : true,
-                "width" : 267,
+                "width" : 335,
                 "widthFactor" : null
               }
             ],
@@ -408,6 +463,8 @@
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -420,6 +477,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -428,6 +489,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "^~'7)pG2",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : null,
@@ -438,6 +501,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -454,12 +518,17 @@
             "widthFactor" : null
           }
         ],
+        "clip" : true,
+        "constraintsLocked" : false,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
         "deviceType" : "apple-iphone-8-space-gray",
         "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
         "fillColor" : "#ffffff",
+        "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -467,19 +536,49 @@
           "end" : "rgba(0,0,0,0)",
           "start" : "black"
         },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
         "fillType" : "color",
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
         "height" : 667,
+        "heightFactor" : null,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
         "id" : "M~&hoP2z",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "left" : 0,
+        "locked" : false,
         "name" : null,
+        "opacity" : 1,
         "parentid" : "\/xsmIwvt",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
         "targetName" : null,
+        "top" : 0,
+        "visible" : true,
         "width" : 375,
-        "x" : 0,
-        "y" : 0
+        "widthFactor" : null
       }
     ],
     "id" : "\/xsmIwvt",
     "parentid" : null
   },
-  "version" : 13
+  "version" : 21
 }

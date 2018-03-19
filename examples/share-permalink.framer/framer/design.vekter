@@ -4,9 +4,32 @@
     "children" : [
       {
         "__class" : "FrameNode",
+        "aspectRatioLocked" : false,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
         "children" : [
           {
-            "__class" : "ImageNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : true,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -37,11 +60,25 @@
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
             "fillColor" : "transparent",
-            "fillEnabled" : false,
+            "fillEnabled" : true,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : "f82zPnxUihIrowX5c7pfHvua3TnUUM2SGtCdMQRflEV5YGWkzJLdXSVZCius7lFd83XYh6Y1I0g8lN0U0GPg.png",
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "image",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
             "height" : 907,
@@ -49,8 +86,6 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "j.v:8-Ye",
-            "image" : "f82zPnxUihIrowX5c7pfHvua3TnUUM2SGtCdMQRflEV5YGWkzJLdXSVZCius7lFd83XYh6Y1I0g8lN0U0GPg.png",
-            "imageBackgroundSize" : "Cover",
             "intrinsicHeight" : 907,
             "intrinsicWidth" : 1799,
             "invert" : 0,
@@ -59,11 +94,11 @@
             "locked" : false,
             "name" : null,
             "opacity" : 1,
-            "originalFilename" : "",
             "parentid" : "*Mw~KI(Z",
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -80,7 +115,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -106,7 +141,7 @@
             "centerAnchorY" : 0.026666666666666668,
             "children" : [
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -132,7 +167,7 @@
                 "centerAnchorY" : 0.5,
                 "children" : [
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -163,11 +198,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "e8n6J8hFsbcrB0QI91ujcdpi7UYWSt6GviUaz1ROfOBFT2qA8ak0ZzXjBPyHOlkUaGihR9m30f1enJnVbkvEKQ.png",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 30,
@@ -175,8 +224,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "Z?V|.gE+",
-                    "image" : "e8n6J8hFsbcrB0QI91ujcdpi7UYWSt6GviUaz1ROfOBFT2qA8ak0ZzXjBPyHOlkUaGihR9m30f1enJnVbkvEKQ.png",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 30,
                     "intrinsicWidth" : 102,
                     "invert" : 0,
@@ -185,11 +232,11 @@
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
-                    "originalFilename" : "",
                     "parentid" : "T5pn5CoK",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -206,7 +253,7 @@
                     "widthFactor" : null
                   },
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -237,11 +284,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "ifpgn7e1YlD86MIVmwdrBFaRrKY0BzYXsK2u3yAHpt6klTfDpGQfqIaYy3KLBLZLtndYLLfbtLESZJ2w.png",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 32,
@@ -249,8 +310,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "R5r(t>hw",
-                    "image" : "ifpgn7e1YlD86MIVmwdrBFaRrKY0BzYXsK2u3yAHpt6klTfDpGQfqIaYy3KLBLZLtndYLLfbtLESZJ2w.png",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 32,
                     "intrinsicWidth" : 188,
                     "invert" : 0,
@@ -259,11 +318,11 @@
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
-                    "originalFilename" : "",
                     "parentid" : "T5pn5CoK",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -280,7 +339,7 @@
                     "widthFactor" : null
                   },
                   {
-                    "__class" : "RectangleNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : false,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -318,6 +377,7 @@
                         "brightnessEnabled" : 0,
                         "centerAnchorX" : 0.5,
                         "centerAnchorY" : 0.51041666666666663,
+                        "colorable" : true,
                         "constraintsLocked" : false,
                         "contrast" : 100,
                         "contrastEnabled" : 0,
@@ -332,6 +392,10 @@
                           "end" : "rgba(0,0,0,0)",
                           "start" : "black"
                         },
+                        "fillImage" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
                         "fillType" : "color",
                         "grayscale" : 0,
                         "grayScaleEnabled" : 0,
@@ -379,6 +443,7 @@
                         "brightnessEnabled" : 0,
                         "centerAnchorX" : 0.51041666666666663,
                         "centerAnchorY" : 0.51041666666666663,
+                        "colorable" : true,
                         "constraintsLocked" : false,
                         "contrast" : 100,
                         "contrastEnabled" : 0,
@@ -393,6 +458,10 @@
                           "end" : "rgba(0,0,0,0)",
                           "start" : "black"
                         },
+                        "fillImage" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
                         "fillType" : "color",
                         "grayscale" : 0,
                         "grayScaleEnabled" : 0,
@@ -432,6 +501,8 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
@@ -444,6 +515,10 @@
                       "end" : "rgba(0,0,0,0)",
                       "start" : "black"
                     },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
                     "fillType" : "color",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
@@ -452,6 +527,8 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : ".[7{mAz-",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
                     "invert" : 0,
                     "invertEnabled" : 0,
                     "left" : null,
@@ -462,6 +539,7 @@
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -478,7 +556,7 @@
                     "widthFactor" : null
                   },
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -509,11 +587,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "cvZnZxJAXuTevUIiapPB0o4M0vWuB2diopUgXE4Pt8AWAhU0mFmFuseuN4UorvYCadCsql6cyV7hlO3XV9zMQ.png",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 48,
@@ -521,8 +613,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "^(<RNKV%",
-                    "image" : "cvZnZxJAXuTevUIiapPB0o4M0vWuB2diopUgXE4Pt8AWAhU0mFmFuseuN4UorvYCadCsql6cyV7hlO3XV9zMQ.png",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 48,
                     "intrinsicWidth" : 108,
                     "invert" : 0,
@@ -531,11 +621,11 @@
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
-                    "originalFilename" : "",
                     "parentid" : "T5pn5CoK",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -556,6 +646,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -568,6 +660,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -576,6 +672,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "T5pn5CoK",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : 0,
@@ -586,6 +684,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -602,7 +701,7 @@
                 "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -628,7 +727,7 @@
                 "centerAnchorY" : 0.5,
                 "children" : [
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -659,11 +758,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "n0rmpJNjjJaNdGyumym6k0jvZmmEs93fQASPcQmty5ejs9dA8OxfpqTPvkpzJGEN1eVI8L4tOelnDrqrhbg.png",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 32,
@@ -671,8 +784,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "J8p(vZM0",
-                    "image" : "n0rmpJNjjJaNdGyumym6k0jvZmmEs93fQASPcQmty5ejs9dA8OxfpqTPvkpzJGEN1eVI8L4tOelnDrqrhbg.png",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 32,
                     "intrinsicWidth" : 90,
                     "invert" : 0,
@@ -681,11 +792,11 @@
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
-                    "originalFilename" : "",
                     "parentid" : "W'^5M$v?",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -702,7 +813,7 @@
                     "widthFactor" : null
                   },
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -733,11 +844,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "VSkvLfaB1DolQbKwWfvLAY9gYvUiVdMl27tiGbyPyUqBeiMZzOK7CZyqQCPMKlnPH8Llms4yOOCZ2fT5RNQ.png",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 16,
@@ -745,8 +870,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "`2^-mSlu",
-                    "image" : "VSkvLfaB1DolQbKwWfvLAY9gYvUiVdMl27tiGbyPyUqBeiMZzOK7CZyqQCPMKlnPH8Llms4yOOCZ2fT5RNQ.png",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 16,
                     "intrinsicWidth" : 81,
                     "invert" : 0,
@@ -755,11 +878,11 @@
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
-                    "originalFilename" : "",
                     "parentid" : "W'^5M$v?",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -780,6 +903,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -792,6 +917,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -800,6 +929,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "W'^5M$v?",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : null,
@@ -810,6 +941,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -830,6 +962,8 @@
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -842,6 +976,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -850,6 +988,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "O}uJU8:f",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 0,
@@ -860,6 +1000,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -876,7 +1017,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -993,6 +1134,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"2d455-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Metric-Regular&quot;, &quot;Metric&quot;, serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Copy a link to share this view with others<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 19,
+                      "width" : 252
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -1001,15 +1151,15 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 252,
-                "widthFactor" : null,
-                "x" : 1148,
-                "y" : 90
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -1022,6 +1172,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -1030,6 +1184,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "e~0g7L&^",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : null,
@@ -1040,6 +1196,7 @@
             "radius" : 5,
             "radiusBottomLeft" : 5,
             "radiusBottomRight" : 5,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 5,
             "radiusTopRight" : 5,
@@ -1056,12 +1213,17 @@
             "widthFactor" : null
           }
         ],
+        "clip" : true,
+        "constraintsLocked" : false,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
         "deviceType" : "apple-macbook-pro",
         "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
         "fillColor" : "hsl(0, 0%, 100%)",
+        "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -1069,19 +1231,49 @@
           "end" : "#8AF2FF",
           "start" : "#1FA5FF"
         },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
         "fillType" : "color",
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
         "height" : 900,
+        "heightFactor" : null,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
         "id" : "*Mw~KI(Z",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "left" : -1,
+        "locked" : false,
         "name" : null,
+        "opacity" : 1,
         "parentid" : "{T{ZV=;$",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
         "targetName" : null,
+        "top" : 4,
+        "visible" : true,
         "width" : 1440,
-        "x" : -1,
-        "y" : 4
+        "widthFactor" : null
       }
     ],
     "id" : "{T{ZV=;$",
     "parentid" : null
   },
-  "version" : 13
+  "version" : 21
 }
