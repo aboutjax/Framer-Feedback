@@ -693,9 +693,7 @@
             "top" : null,
             "visible" : true,
             "width" : 251,
-            "widthFactor" : null,
-            "x" : 38,
-            "y" : 39
+            "widthFactor" : null
           },
           {
             "__class" : "SVGNode",
@@ -957,9 +955,7 @@
             "top" : null,
             "visible" : true,
             "width" : 251,
-            "widthFactor" : null,
-            "x" : 38,
-            "y" : 39
+            "widthFactor" : null
           },
           {
             "__class" : "FrameNode",
