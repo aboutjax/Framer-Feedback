@@ -6,6 +6,4 @@
     "require": "{Feedback} = require 'feedback'",
     "install": "feedback.coffee",
     "example": "example.coffee",
-
-    "thumb": "bidirectional-cycle-thumb.mov"
 }

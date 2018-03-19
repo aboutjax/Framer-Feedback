@@ -1,4 +1,5 @@
 {Feedback} = require 'feedback'
+Canvas.backgroundColor = '#002FFF'
 
 button_timer.onClick ->	
 	feedbackAutoDismiss = new Feedback

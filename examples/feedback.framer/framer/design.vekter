@@ -1105,6 +1105,57 @@
         "visible" : true,
         "width" : 384,
         "widthFactor" : null
+      },
+      {
+        "__class" : "RectangleShapeNode",
+        "aspectRatioLocked" : true,
+        "boxShadows" : [
+
+        ],
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "hsl(229, 100%, 50%)",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 27,
+        "id" : "caIwIkdrj",
+        "lineCap" : "butt",
+        "lineJoin" : "miter",
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "parentid" : "\/xsmIwvt",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "rotation" : 0,
+        "strokeAlignment" : "center",
+        "strokeColor" : "#0AF",
+        "strokeDashArray" : "0",
+        "strokeDashOffset" : 0,
+        "strokeEnabled" : 0,
+        "strokeMiterLimit" : 4,
+        "strokeWidth" : 1,
+        "targetName" : null,
+        "visible" : true,
+        "width" : 27,
+        "x" : 679,
+        "y" : 472
       }
     ],
     "id" : "\/xsmIwvt",

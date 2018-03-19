@@ -4,7 +4,7 @@ The Feedback Module for Framer makes it easier for you to prototype with feedbac
 1. Generic Feedback
 2. Auto Dismiss Feedback
 
-[![](https://media.giphy.com/media/MT9NtZGcp9fh5vaai5/giphy.gif)](https://framer.cloud/UbNRL)
+[![](https://media.giphy.com/media/3CSJhKfs7JaNY1qctn/giphy.gif)](https://framer.cloud/UbNRL)
 
 [Example](https://framer.cloud/GUsVL) – Sharing permalinks interaction.
 
