@@ -12,4 +12,3 @@ button_timer.onClick ->
 button_generic.onClick ->
 	feedback = new Feedback
 		text: 'Hello world.'
-		y: 400
