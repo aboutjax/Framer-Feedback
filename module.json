@@ -4,5 +4,5 @@
     "author": "Jacky Lee",
     "require": "Feedback = require 'feedback'",
     "install": "feedback.coffee",
-    "example": "example.coffee",
+    "example": "example.coffee"
 }
