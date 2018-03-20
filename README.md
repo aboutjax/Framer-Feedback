@@ -1,11 +1,22 @@
-# Framer Feedback Module
-
-The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily spawn two different types of feedback messages in any part of your prototype.
-
+<h3 align='center'>
+    <a href='#docs'>
+        <img src='https://i.imgur.com/PXXcdSm.png' width='80' alt='Framer Feedback Icon' />
+    </a>
+</h3>
+<h1 id='framer-modules' align='center'>Framer Feedback</h1>
+<h3 align='center'>Easily include feedback messages in your prototypes.
+</h3>
+<h3 align='center'>
 <a href='https://open.framermodules.com/framer-feedback'>
     <img alt='Install with Framer Modules'
     src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
 </a>
+</h3>
+
+<br />
+
+## Discover
+The Feedback Module for Framer makes it easier for you to prototype with feedback messages. It allows you to easily spawn two different types of feedback messages in any part of your prototype.
 
 [![](https://media.giphy.com/media/3gL42l3ppwJC6eKxem/source.gif)](https://framer.cloud/UbNRL)
 
