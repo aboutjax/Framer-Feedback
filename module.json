@@ -4,5 +4,6 @@
     "author": "Jacky Lee",
     "require": "Feedback = require 'feedback'",
     "install": "feedback.coffee",
+    "thumb": "thumb.png",
     "example": "example.coffee"
 }
